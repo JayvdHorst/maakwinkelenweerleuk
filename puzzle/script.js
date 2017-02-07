@@ -174,7 +174,7 @@
 
   $(document).ready(function() {
     var imgs, puzzle;
-    imgs = ['imgs/resize/'+picture+'.jpg'];
+    imgs = ['imgs/'+picture+'.jpg'];
     return puzzle = new Puzzle(imgs);
   });
 
